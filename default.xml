@@ -550,4 +550,28 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
+    <!-- Tools Build  -->
+    
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" groups="pdk,linux,arm" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" groups="pdk,linux,arm" />
+
+    <!-- One Plus One Bacon  -->
+  
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-13.0"/>
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0"/>
+  
+    <!-- RaCyanOS Kernel -->
+
+  <project name="Racpu/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-13.0" />
+
+    <!-- RaCyanOS -->
+  
+  <project name="Racpu/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-13.0" />
+  <project name="Racpu/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" remote="github" revision="cm-13.0" />
+  <project name="Racpu/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-13.0" />
+
 </manifest>
