@@ -571,7 +571,7 @@
   
     <!-- RaCyanOS Kernel -->
 
-  <project name="acuicultor/android_kernel_oneplus_msm8974" path="kernel/oneplus/reborn3" remote="github" revision="cm-13.0" />
+  <project name="acuicultor/android_kernel_oneplus_msm8974" path="kernel/oneplus/reborn" remote="github" revision="reborn3" />
 
     <!-- RaCyanOS -->
   
