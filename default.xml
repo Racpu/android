@@ -10,9 +10,8 @@
            fetch=".."
            review="review.cyanogenmod.org" />
            
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org/" />
-
+  <remote  name="TNB"
+           fetch="https://bitbucket.org/moludo/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -556,9 +555,8 @@
 
     <!-- Tools Build  -->
     
-<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" groups="pdk,linux,arm" />
-<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" groups="pdk,linux,arm" />
-
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-" name="UberTC_arm-eabi-5.3" remote="TNB" revision="master" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="UberTC_arm-linux-androideabi-5.3" remote="TNB" revision="master" />
     <!-- One Plus One Bacon  -->
     
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
