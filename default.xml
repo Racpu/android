@@ -546,9 +546,9 @@
 <!-- END AOSP -->
 
     <!-- Tools Build  -->
-    
-<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-" name="UberTC_arm-eabi-5.3" remote="TNB" revision="master" />
-<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="UberTC_arm-linux-androideabi-5.3" remote="TNB" revision="master" />
+
+<project name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="master" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UberTC_arm-linux-androideabi-5.3" remote="TNB" revision="master" />
     <!-- One Plus One Bacon  -->
     
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
